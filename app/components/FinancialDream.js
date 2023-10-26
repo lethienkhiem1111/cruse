@@ -14,8 +14,6 @@ function FinancialDream() {
                 <Image className="" src="/finacialdream.jpg" alt="Jese Leos avatar" width={600} height={1000}></Image>
             </div>
        
-
-
   
 </section>
   );
