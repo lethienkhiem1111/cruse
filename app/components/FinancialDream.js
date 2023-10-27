@@ -4,8 +4,8 @@ import Image from "next/image";
 
 function FinancialDream() {
   return (
-    <section className="w-full rounded-xl bg-[#AEA1F7]">
-            <div class="gap-16 items-center  mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 ">
+    <section className="max-w-screen-xl my-8 lg:my-[120px] rounded-xl bg-[#AEA1F7]">
+            <div class="gap-16 items-center  mx-auto  lg:grid lg:grid-cols-2 ">
             <div className="relative h-full rounded-lg overflow-hidden">
                 <Image src="/finacialdream.jpg" alt="Jese Leos avatar"
                  fill
