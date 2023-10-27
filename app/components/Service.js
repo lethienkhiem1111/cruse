@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Service() {
   return (
-    <section className="bg-gray-800 w-full rounded-xl">
+    <section className="bg-gray-800 w-full rounded-xl mb-20">
   <div className="py-8 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
       <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
           <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-white ">We provide the best service in town</h2>

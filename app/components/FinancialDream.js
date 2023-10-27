@@ -4,14 +4,43 @@ import Image from "next/image";
 
 function FinancialDream() {
   return (
-    <section className="w-full rounded-xl">
-            <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-                <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                    <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">We didn't reinvent the wheel</h2>
-                    <p class="mb-4">We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need.</p>
-                    <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
+    <section className="w-full rounded-xl bg-[#AEA1F7]">
+            <div class="gap-16 items-center  mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 ">
+            <div className="relative h-full rounded-lg overflow-hidden">
+                <Image src="/finacialdream.jpg" alt="Jese Leos avatar"
+                 fill
+          style={{
+            objectFit: 'cover', // cover, contain, none
+          }}></Image>
                 </div>
-                <Image className="" src="/finacialdream.jpg" alt="Jese Leos avatar" width={600} height={1000}></Image>
+                <div class="font-light text-gray-500 sm:text-lg p-8">
+                    <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Get right solution for your financial dream</h2>
+                    <p class="mb-6 text-[#3f3f46]">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</p>
+                    <ul className="flex flex-col gap-4">
+                      <li className="flex gap-3 items-start">
+                        <Image className="" src="/icon-dream1.svg" width={60} height={60} alt="icon"></Image>
+                        <div className="flex flex-col text-gray-900">
+                          <h3 className="mb-2 font-semibold text-2xl">Financial Advisory</h3>
+                          <p>It is a long established fact that a reader will be distracted </p>
+                        </div>
+                      </li>
+                      <li className="flex gap-3 items-start">
+                        <Image className="" src="/icon-dream2.svg" width={60} height={60} alt="icon"></Image>
+                        <div className="flex flex-col text-gray-900">
+                          <h3 className="mb-2 font-semibold text-2xl">Financial Guidance</h3>
+                          <p>It is a long established fact that a reader will be distracted </p>
+                        </div>
+                      </li>
+                      <li className="flex gap-3 items-start">
+                        <Image className="" src="/icon-dream3.svg" width={60} height={60} alt="icon"></Image>
+                        <div className="flex flex-col text-gray-900">
+                          <h3 className="mb-2 font-semibold text-2xl">Financial Advisory</h3>
+                          <p>It is a long established fact that a reader will be distracted </p>
+                        </div>
+                      </li>
+                    </ul>
+                </div>
+                
             </div>
        
   
